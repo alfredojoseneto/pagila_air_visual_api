@@ -199,3 +199,34 @@ def exercise_07_data() -> DataFrame:
     """
     sql_handler = SQLHandler()
     return sql_handler.fetch_data(sql=sql)
+
+
+def exercise_08_data() -> DataFrame:
+    sql = """
+    WITH CTE AS (
+    SELECT
+        DISTINCT
+        concat(c.first_name, ' ', c.last_name) customer
+        ,c2.city
+        ,c3.country
+        ,r.rental_id
+        ,p.amount
+    FROM customer c
+    LEFT JOIN address a ON c.address_id  = a.address_id
+    LEFT JOIN city c2 ON c2.city_id = a.city_id
+    LEFT JOIN country c3 ON c3.country_id = c2.country_id
+    LEFT JOIN rental r ON r.customer_id = c.customer_id
+    LEFT JOIN payment p ON p.rental_id = r.rental_id
+    )
+    SELECT
+        customer
+        ,city
+        ,country
+        ,count(rental_id) rent_amount
+        ,sum(amount) payment_amount
+    FROM CTE
+    GROUP BY customer, city, country
+    ORDER BY rent_amount desc
+    """
+    sql_handler = SQLHandler()
+    return sql_handler.fetch_data(sql=sql)
