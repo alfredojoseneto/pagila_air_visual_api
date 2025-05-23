@@ -288,7 +288,7 @@ def exercise_07() -> None:
     return None
 
 
-def exercise_08() -> None:
+def exercise_08() -> pd.DataFrame:
     """
     Exercício 8 - Perfil de Clima por Cliente
     •   Para cada cliente, crie um perfil com:
@@ -344,21 +344,59 @@ def exercise_08() -> None:
     # apresentação dos resultados
     printer.tables(title="Informações dos clientes", df=data)
 
+    return data
+
+
+def exercise_09() -> None:
+    """
+    Exercício 9 - Exportação Inteligente
+    •   Gere um relatório Excel com os seguintes critérios:
+    •   Clientes de países com temperatura < 15°C
+    •   AQI acima de 100
+    •   Receita individual > média geral
+    •   Utilize OpenPyXL e organize em múltiplas abas: Clientes, Temperaturas, Alertas.
+    """
+
+    print("Retrieving data...")
+
+    # retrieve os dados de aqi do cache
+    data = exercise_08()
+
+    # obtendo a média dos pagamentos
+    avg = float(round(data["payment_amount"].agg("mean"), 2))
+
+    # cria o diretório onde será armazenado o relatório
+    os.makedirs("app/report", exist_ok=True)
+
+    # filtros para o dados do reporte
+    report_data = data.loc[
+        (data["payment_amount"] > avg) & (data["aqi"] > 100) & (data["temp_c"] < 15)
+    ]
+
+    # cria o arquivo excel com a engine do openpyxl
+    writer = pd.ExcelWriter("app/report/report.xlsx", engine="openpyxl")
+
+    # salva os dados dos clientes
+    report_data[["customer", "age", "age_group", "city", "country"]].to_excel(
+        writer, sheet_name="customers", index=False
+    )
+
+    # salva os dados de clientes com temperatura abaixo de 15oC
+    report_data["temp_c"].to_excel(writer, sheet_name="temperaturas", index=False)
+
+    # salva os dados de clientes com aqi acima de 100
+    report_data["aqi"].to_excel(writer, sheet_name="Alertas", index=False)
+
+    # fecha o arquivo para salvar os dados
+    writer.close()
+
+    # apresentação dos resultados
+    printer.tables(
+        title="Dados exportados dos customers com payment acima da média, cidade com temperatura abaixo de 15C e AQI acima de 100",
+        df=data,
+    )
+
     return None
-
-
-exercise_08()
-
-# ⸻
-
-#   Exercício 9 – Exportação Inteligente
-#   •   Gere um relatório Excel com os seguintes critérios:
-#   •   Clientes de países com temperatura < 15°C
-#   •   AQI acima de 100
-#   •   Receita individual > média geral
-#   •   Utilize OpenPyXL e organize em múltiplas abas: Clientes, Temperaturas, Alertas.
-
-# ⸻
 
 
 def exercise_10() -> dict:
