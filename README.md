@@ -1,7 +1,51 @@
+# PAGILA AIR VISUAL API
+
+## 📝 Description
+
+Este é um projeto que foi elaborando utilizando a base de dados Sakila e as APIs
+(Air Visual API)[https://api-docs.iqair.com/?version=latest], (Weather
+API)[https://www.weatherapi.com/] e (REST Countries
+API)[https://restcountries.com/] para o desenvolvimento de uma atividade
+relacionada à disciplina de Pythons para Engenharia de Dados do MBA em
+Engenharia de Dados pela PUC-MG.
+
+O objetivo do projeto foi elaborar o consumo destas API utilizando informações
+dos nomes das cidades a fim de se obter temperatura e qualidade do ar para que
+fosse possível realizar algumas análises.
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+- Foi utilizada a versão `3.12.9` do python.
+- Para gerenciamento das versões e do ambiente foi utilizado o (pyenv)[https://github.com/pyenv/pyenv]
+- O ambiente de desenvolvimento foi o `Ubuntu 22.04 LTS`.
+- Para criação do ambiente e execução do projeto:
+
+```bash
+# clonar o projeto
+$ git@github.com:alfredojoseneto/pagila_air_visual_api.git
+
+# criar o ambiente virtual
+$ python3 -m venv .venv
+
+# ativar o ambiente virtual
+$ source .venv/bin/activate
+
+# instalação das dependências para execução do projeto
+$ pip install -r app/requirements.txt
+
+# execução do projeto no terminal
+$ python3 -m app
+``` 
+
+## 📝 Outputs
+
+Abaixo estão alguns exemplos de outputs do projeto elaborado.
 
 ```
 ########################################################################################################################
-                                                      EXERCÍCIO 01                                                      
+                                                      EXERCÍCIO 01
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -71,7 +115,7 @@ As 10 cidades com menores temperaturas
 ###############################################   Fim do Exercício 01   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 02                                                      
+                                                      EXERCÍCIO 02
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -103,7 +147,7 @@ TOTAL_INVOICING  15570.76
 ###############################################   Fim do Exercício 02   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 03                                                      
+                                                      EXERCÍCIO 03
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -125,7 +169,7 @@ Os 10 países como maior taxa de aluguéis por 1000 habitantes
 ###############################################   Fim do Exercício 03   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 04                                                      
+                                                      EXERCÍCIO 04
 ########################################################################################################################
 Retrieving data... max waiting = 60 seconds
 Waiting... 10 seconds
@@ -176,7 +220,7 @@ Cidades com AQI maior ou igual a 150 e com filmes com rental rate acima de 4
 ###############################################   Fim do Exercício 04   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 05                                                      
+                                                      EXERCÍCIO 05
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -196,7 +240,7 @@ Cidades com AQI maior que 130 - zona de atenção
 ###############################################   Fim do Exercício 05   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 06                                                      
+                                                      EXERCÍCIO 06
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -214,7 +258,7 @@ Receita total (total invoice) por continente
 ###############################################   Fim do Exercício 06   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 07                                                      
+                                                      EXERCÍCIO 07
 ########################################################################################################################
 ========================================================================================================================
 As 20 cidades com menores temperaturas e suas médias de dias de filmes alugados
