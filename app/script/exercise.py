@@ -288,7 +288,7 @@ def exercise_07() -> None:
     return None
 
 
-def exercise_08() -> pd.DataFrame:
+def exercise_08(to_print: bool = True) -> pd.DataFrame:
     """
     Exercício 8 - Perfil de Clima por Cliente
     •   Para cada cliente, crie um perfil com:
@@ -342,7 +342,8 @@ def exercise_08() -> pd.DataFrame:
     )
 
     # apresentação dos resultados
-    printer.tables(title="Informações dos clientes", df=data)
+    if to_print:
+        printer.tables(title="Informações dos clientes", df=data)
 
     return data
 
@@ -360,7 +361,7 @@ def exercise_09() -> None:
     print("Retrieving data...")
 
     # retrieve os dados de aqi do cache
-    data = exercise_08()
+    data = exercise_08(to_print=False)
 
     # obtendo a média dos pagamentos
     avg = float(round(data["payment_amount"].agg("mean"), 2))
@@ -393,7 +394,7 @@ def exercise_09() -> None:
     # apresentação dos resultados
     printer.tables(
         title="Dados exportados dos customers com payment acima da média, cidade com temperatura abaixo de 15C e AQI acima de 100",
-        df=data,
+        df=report_data,
     )
 
     return None
