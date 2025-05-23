@@ -3,6 +3,8 @@ from app.util import printer
 import json
 import os
 import datetime
+import pandas as pd
+import numpy as np
 
 
 def __get_cache_data() -> dict:
@@ -257,12 +259,17 @@ def exercise_07() -> None:
     •   Visualize a correlação entre temperatura e tempo médio de aluguel (scatterplot + linha de tendência).
     """
 
+    print("Retrieving data...")
+
+    # obtendo os dados do banco pagila
     data = pagila.exercise_07_data()
 
+    # obtendo os dados de temperatura das cidades
     data["temp_c"] = data["city"].map(
         weather_api.paralle_get_city_temp_c(set(data["city"]))
     )
 
+    # apresentação dos resultados
     printer.tables(
         title="As 20 cidades com menores temperaturas e suas médias de dias de filmes alugados",
         df=data.sort_values(
@@ -270,6 +277,7 @@ def exercise_07() -> None:
         ).reset_index(drop=True)[:20],
     )
 
+    # apresentação dos resultados
     printer.tables(
         title="As 20 cidades com maiores temperaturas e suas médias de dias de filmes alugados",
         df=data.sort_values(
@@ -280,11 +288,66 @@ def exercise_07() -> None:
     return None
 
 
-#   Exercício 8 – Perfil de Clima por Cliente
-#   •   Para cada cliente, crie um perfil com:
-#   •   cidade, temperatura, AQI, total de aluguéis, gasto total.
-#   •   Agrupe os perfis por faixa etária (simulada ou fictícia) e avalie padrões.
-#   •   Objetivo: conectar comportamento de consumo e ambiente.
+def exercise_08() -> None:
+    """
+    Exercício 8 - Perfil de Clima por Cliente
+    •   Para cada cliente, crie um perfil com:
+    •   cidade, temperatura, AQI, total de aluguéis, gasto total.
+    •   Agrupe os perfis por faixa etária (simulada ou fictícia) e avalie padrões.
+    •   Objetivo: conectar comportamento de consumo e ambiente.
+    """
+
+    print("Retrieving data...")
+
+    # retrieve os dados de aqi do cache
+    cache_data = __get_cache_data()
+    aqi_data = {}
+    for _, value in cache_data.items():
+        try:
+            city_name = value["data"]["city"]
+            aqi = value["data"]["current"]["pollution"]["aqius"]
+            aqi_data[city_name] = aqi
+        except KeyError as e:
+            continue
+
+    # obtém os dados dos usuários
+    data = pagila.exercise_08_data()
+
+    # retrieve dados de temperatura
+    data["temp_c"] = data["city"].map(
+        weather_api.paralle_get_city_temp_c(set(data["city"]))
+    )
+
+    # mapeando os valores de aqi para cada cidade
+    data["aqi"] = data["city"].map(aqi_data)
+
+    # cria as idades dos usuários de forma randômica e agrupa for faixa etária
+    np.random.seed(42)
+    bins = [0, 18, 25, 30, 35, 40, 45, 50, 55, 60, 100]
+    age_group = [
+        "<18",
+        "18-24",
+        "25-29",
+        "30-34",
+        "35-39",
+        "40-44",
+        "45-49",
+        "50-54",
+        "55-59",
+        "60+",
+    ]
+    data["age"] = np.random.randint(low=14, high=80, size=data.shape[0])
+    data["age_group"] = pd.cut(
+        data["age"], bins=bins, labels=age_group, include_lowest=True
+    )
+
+    # apresentação dos resultados
+    printer.tables(title="Informações dos clientes", df=data)
+
+    return None
+
+
+exercise_08()
 
 # ⸻
 
