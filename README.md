@@ -3,9 +3,8 @@
 ## 📝 Description
 
 Este é um projeto que foi elaborando utilizando a base de dados Sakila e as APIs
-(Air Visual API)[https://api-docs.iqair.com/?version=latest], (Weather
-API)[https://www.weatherapi.com/] e (REST Countries
-API)[https://restcountries.com/] para o desenvolvimento de uma atividade
+[Air Visual API](https://api-docs.iqair.com/?version=latest), [Weather API](https://www.weatherapi.com/)
+e [REST Countries API](https://restcountries.com/) para o desenvolvimento de uma atividade
 relacionada à disciplina de Pythons para Engenharia de Dados do MBA em
 Engenharia de Dados pela PUC-MG.
 
@@ -18,7 +17,7 @@ fosse possível realizar algumas análises.
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Foi utilizada a versão `3.12.9` do python.
-- Para gerenciamento das versões e do ambiente foi utilizado o (pyenv)[https://github.com/pyenv/pyenv]
+- Para gerenciamento das versões e do ambiente foi utilizado o [pyenv](https://github.com/pyenv/pyenv)
 - O ambiente de desenvolvimento foi o `Ubuntu 22.04 LTS`.
 - Para criação do ambiente e execução do projeto:
 
