@@ -8,14 +8,6 @@ from app.script import exercise
 
 load_dotenv("app/.env")
 
-reload(connection)
-reload(sql_handler)
-reload(pagila)
-reload(weather_api)
-reload(country_api)
-reload(printer)
-reload(exercise)
-
 
 def main() -> None:
     """

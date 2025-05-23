@@ -1,15 +1,8 @@
-from importlib import reload
 from app.source import country_api, pagila, weather_api, airvisual_api
 from app.util import printer
 import json
 import os
 import datetime
-
-
-reload(pagila)
-reload(weather_api)
-reload(country_api)
-reload(airvisual_api)
 
 
 def __get_cache_data() -> dict:
