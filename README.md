@@ -44,109 +44,109 @@ Abaixo estão alguns exemplos de outputs do projeto elaborado.
 
 ```
 ########################################################################################################################
-                                                      EXERCÍCIO 01
+                                                      EXERCÍCIO 01                                                      
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
 As 10 cidades com maior número de transações e suas temperaturas
 ------------------------------------------------------------------------------------------------------------------------
    customer_id                  city  transactions_amount  temp_c  weighted_temp_by_clients
-0          148           Saint-Denis                   46    19.3                  0.055318
-1          526        Cape Canaveral                   45    24.6                  0.068976
-2          236                 Tanza                   42    33.0                  0.086361
+0          148           Saint-Denis                   46    22.3                  0.063917
+1          526        Cape Canaveral                   45    30.7                  0.086080
+2          236                 Tanza                   42    29.4                  0.076939
 3          144             Molodetno                   42     NaN                       NaN
-4           75              Changhwa                   41    21.6                  0.055181
+4           75              Changhwa                   41    12.9                  0.032955
 5          469               Ourense                   40     NaN                       NaN
-6          197             Changzhou                   40    20.3                  0.050595
-7          178  Santa Barbara dOeste                   39    25.1                  0.060994
-8          468               Bijapur                   39    24.4                  0.059293
-9          137             Apeldoorn                   39     4.2                  0.010206
+6          197             Changzhou                   40    15.7                  0.039130
+7          178  Santa Barbara dOeste                   39    29.3                  0.071201
+8          468               Bijapur                   39    23.7                  0.057592
+9          137             Apeldoorn                   39     4.4                  0.010692
 ========================================================================================================================
 
 ========================================================================================================================
 As 10 cidades com menor número de transações e suas temperaturas
 ------------------------------------------------------------------------------------------------------------------------
      customer_id           city  transactions_amount  temp_c  weighted_temp_by_clients
-589          164         Tarsus                   16    20.2                  0.020138
-590          398            Bag                   16    26.6                  0.026519
-591          464       Rancagua                   16    12.8                  0.012761
-592          492    Kanchrapara                   16    29.1                  0.029011
-593          136  Hubli-Dharwad                   15    23.3                  0.021777
-594          248    Tallahassee                   15    26.1                  0.024394
-595          110          Enshi                   14    19.8                  0.017272
-596          281         Fuzhou                   14    27.4                  0.023902
-597           61          Basel                   14     9.4                  0.008200
-598          318      Bydgoszcz                   12     3.9                  0.002916
+589          164         Tarsus                   16    22.1                  0.022033
+590          398            Bag                   16    20.0                  0.019939
+591          464       Rancagua                   16    13.1                  0.013060
+592          492    Kanchrapara                   16    27.4                  0.027316
+593          136  Hubli-Dharwad                   15    22.5                  0.021029
+594          248    Tallahassee                   15    34.4                  0.032152
+595          110          Enshi                   14    15.0                  0.013085
+596          281         Fuzhou                   14    26.2                  0.022855
+597           61          Basel                   14     8.4                  0.007328
+598          318      Bydgoszcz                   12     5.0                  0.003739
 ========================================================================================================================
 
 ========================================================================================================================
 As 10 cidades com maiores temperaturas
 ------------------------------------------------------------------------------------------------------------------------
      customer_id                  city  transactions_amount  temp_c  weighted_temp_by_clients
-352          343              Mexicali                   25    40.1                  0.062465
-135          275                Peoria                   30    39.2                  0.073276
-418          243  San Miguel de Tucumn                   24    38.2                  0.057125
-467          177             Matamoros                   23    35.4                  0.050732
-390          582     Huejutla de Reyes                   25    35.4                  0.055144
-344          570              Monclova                   26    34.4                  0.055729
-228            6                Laredo                   28    34.4                  0.060016
-194           32                Jhansi                   29    34.3                  0.061979
-263          292                Sharja                   27    33.2                  0.055854
-347          170               Udaipur                   26    33.2                  0.053785
+352          343              Mexicali                   25    41.1                  0.064023
+390          582     Huejutla de Reyes                   25    39.0                  0.060751
+418          243  San Miguel de Tucumn                   24    38.0                  0.056826
+135          275                Peoria                   30    37.3                  0.069724
+500          443           So Leopoldo                   22    37.2                  0.050994
+467          177             Matamoros                   23    37.0                  0.053025
+228            6                Laredo                   28    36.7                  0.064029
+75           451             El Fuerte                   33    35.9                  0.073818
+344          570              Monclova                   26    35.8                  0.057997
+185           25             Shikarpur                   29    35.3                  0.063786
 ========================================================================================================================
 
 ========================================================================================================================
 As 10 cidades com menores temperaturas
 ------------------------------------------------------------------------------------------------------------------------
      customer_id             city  transactions_amount  temp_c  weighted_temp_by_clients
-414           19        Kimberley                   24     4.1                  0.006131
-376          201           Witten                   25     4.1                  0.006387
-354          270           Kalisz                   25     4.1                  0.006387
-110          128  Jastrzebie-Zdrj                   32     3.9                  0.007776
-598          318        Bydgoszcz                   12     3.9                  0.002916
-201          448         Erlangen                   29     3.2                  0.005782
-196           16  Southend-on-Sea                   29     3.1                  0.005602
-253          497             York                   28     2.3                  0.004013
-216          132       Botshabelo                   28     2.3                  0.004013
-42           207             Nuuk                   34     0.0                  0.000000
+199          265          Olomouc                   29     5.0                  0.009035
+155           23          Liepaja                   30     5.0                  0.009346
+110          128  Jastrzebie-Zdrj                   32     5.0                  0.009969
+9            137        Apeldoorn                   39     4.4                  0.010692
+216          132       Botshabelo                   28     4.3                  0.007502
+56           138           Hohhot                   34     4.3                  0.009110
+245          376           Kurgan                   28     4.0                  0.006979
+533          301      Kaliningrad                   21     3.3                  0.004318
+42           207             Nuuk                   34     2.2                  0.004661
+363          155             Bern                   25     2.2                  0.003427
 ========================================================================================================================
 
 ###############################################   Fim do Exercício 01   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 02
+                                                      EXERCÍCIO 02                                                      
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
 Faturamento das cidades com temperatura entre 18°C e 24°C
 ------------------------------------------------------------------------------------------------------------------------
               city invoicing  temp_c
-0      Saint-Denis    216.54    19.3
-1           Aurora    198.50    22.3
-2          Qomsheh    186.62    20.1
-3          Memphis    174.66    23.3
-4    Lengshuijiang    159.64    20.3
+0      Saint-Denis    216.54    22.3
+1          Qomsheh    186.62    22.2
+2          Bijapur    175.61    23.7
+3    Lengshuijiang    159.64    18.3
+4      Probolinggo    158.66    23.6
 ..             ...       ...     ...
-133          Kabul     67.82    20.5
-134         Tarsus     66.84    20.2
-135  Hubli-Dharwad     62.85    23.3
-136          Enshi     59.86    19.8
-137           Tete     58.82    21.1
+110            Bag     78.84    20.0
+111         Tarsus     66.84    22.1
+112          Tegal     66.81    23.1
+113  Hubli-Dharwad     62.85    22.5
+114           Tete     58.82    20.3
 
-[138 rows x 3 columns]
+[115 rows x 3 columns]
 ========================================================================================================================
 
 ========================================================================================================================
 Faturamento TOTAL das cidades com temperatura entre 18°C e 24°C
 ------------------------------------------------------------------------------------------------------------------------
                 invoicing
-TOTAL_INVOICING  15570.76
+TOTAL_INVOICING  13074.96
 ========================================================================================================================
 
 ###############################################   Fim do Exercício 02   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 03
+                                                      EXERCÍCIO 03                                                      
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -168,7 +168,7 @@ Os 10 países como maior taxa de aluguéis por 1000 habitantes
 ###############################################   Fim do Exercício 03   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 04
+                                                      EXERCÍCIO 04                                                      
 ########################################################################################################################
 Retrieving data... max waiting = 60 seconds
 Waiting... 10 seconds
@@ -178,13 +178,13 @@ Waiting... 30 seconds
 As 10 cidades com maior número de clientes
 ------------------------------------------------------------------------------------------------------------------------
        country    district                  city  clients_amount   iqa
-0       France     Reunion           Saint-Denis              46  22.0
-1          USA     Florida        Cape Canaveral              45  40.0
+0       France     Reunion           Saint-Denis              46  24.0
+1          USA     Florida        Cape Canaveral              45   NaN
 2      Belarus       Minsk             Molodetno              42   NaN
 3  Philippines  Calabarzon                 Tanza              42   NaN
 4       Taiwan    Changhwa              Changhwa              41   NaN
 5        China     Jiangsu             Changzhou              40   NaN
-6        Spain     Galicia               Ourense              40  73.0
+6        Spain     Galicia               Ourense              40  84.0
 7  Netherlands  Gelderland             Apeldoorn              39   NaN
 8       Brazil   Sao Paulo  Santa Barbara dOeste              39   NaN
 9        India   Karnataka               Bijapur              39   NaN
@@ -219,27 +219,27 @@ Cidades com AQI maior ou igual a 150 e com filmes com rental rate acima de 4
 ###############################################   Fim do Exercício 04   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 05
+                                                      EXERCÍCIO 05                                                      
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
 Cidades com AQI maior que 130 - zona de atenção
 ------------------------------------------------------------------------------------------------------------------------
            customer         city     country  aqi  temp_c      air_quality
-2       DORA MEDINA      Tianjin       China  154    15.4  zona de atenção
-1    GLENDA FRAZIER  Qinhuangdao       China  137    19.9  zona de atenção
-7      JESSIE MILAM      Binzhou       China  132    17.3  zona de atenção
-4  LEROY BUSTAMANTE     Tongliao       China  145    20.7  zona de atenção
-0     MICHELE GRANT     Yuncheng       China  142    21.4  zona de atenção
-5        ROBERTO VU     Yinchuan       China  138    14.5  zona de atenção
-6      ROLAND SOUTH      Yingkou       China  145    20.7  zona de atenção
-3    STEPHEN QUALLS        Dhaka  Bangladesh  178    27.3  zona de atenção
+2       DORA MEDINA      Tianjin       China  154    15.2  zona de atenção
+1    GLENDA FRAZIER  Qinhuangdao       China  137    16.0  zona de atenção
+7      JESSIE MILAM      Binzhou       China  132    13.8  zona de atenção
+4  LEROY BUSTAMANTE     Tongliao       China  145    14.1  zona de atenção
+0     MICHELE GRANT     Yuncheng       China  142    13.2  zona de atenção
+5        ROBERTO VU     Yinchuan       China  138    14.4  zona de atenção
+6      ROLAND SOUTH      Yingkou       China  145    13.3  zona de atenção
+3    STEPHEN QUALLS        Dhaka  Bangladesh  178    26.3  zona de atenção
 ========================================================================================================================
 
 ###############################################   Fim do Exercício 05   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 06
+                                                      EXERCÍCIO 06                                                      
 ########################################################################################################################
 Retrieving data...
 ========================================================================================================================
@@ -257,62 +257,115 @@ Receita total (total invoice) por continente
 ###############################################   Fim do Exercício 06   ################################################
 
 ########################################################################################################################
-                                                      EXERCÍCIO 07
+                                                      EXERCÍCIO 07                                                      
 ########################################################################################################################
+Retrieving data...
 ========================================================================================================================
 As 20 cidades com menores temperaturas e suas médias de dias de filmes alugados
 ------------------------------------------------------------------------------------------------------------------------
                city             country avg_rent_days  temp_c
-0              Nuuk           Greenland          5.29     0.0
-1              York      United Kingdom          3.74     2.3
-2        Botshabelo        South Africa          4.14     2.3
-3   Southend-on-Sea      United Kingdom          4.07     3.1
-4          Erlangen             Germany          5.59     3.2
-5            Witten             Germany          4.40     4.1
-6            Kalisz              Poland          4.96     4.1
-7         Kimberley        South Africa          5.25     4.1
-8        Amersfoort         Netherlands          3.96     4.2
-9            Siegen             Germany          4.32     4.2
-10           Dundee      United Kingdom          4.60     4.2
-11        Apeldoorn         Netherlands          5.36     4.2
-12      Halle/Saale             Germany          3.93     4.3
-13             Oulu             Finland          4.12     5.0
-14           La Paz              Mexico          4.77     5.0
-15           London      United Kingdom          4.00     5.1
-16             Malm              Sweden          4.71     5.2
-17          Springs        South Africa          3.92     5.3
-18        Syktyvkar  Russian Federation          4.50     5.3
-19          Wroclaw              Poland          5.46     5.3
+0              Nuuk           Greenland          5.29     2.0
+1              Bern         Switzerland          4.26     2.2
+2       Kaliningrad  Russian Federation          3.62     3.1
+3        Amersfoort         Netherlands          3.96     3.1
+4         Apeldoorn         Netherlands          5.36     3.1
+5            Kurgan  Russian Federation          4.07     4.0
+6            Hohhot               China          3.56     4.1
+7        Botshabelo        South Africa          4.14     4.2
+8           Liepaja              Latvia          4.38     4.4
+9         Bydgoszcz              Poland          4.42     5.0
+10  Jastrzebie-Zdrj              Poland          4.44     5.0
+11          Olomouc      Czech Republic          4.62     5.0
+12           Witten             Germany          4.40     5.2
+13           Kalisz              Poland          4.96     5.3
+14  s-Hertogenbosch         Netherlands          4.52     5.4
+15         Erlangen             Germany          5.59     6.0
+16            Plock              Poland          5.25     6.1
+17        Kimberley        South Africa          5.25     6.2
+18           Siegen             Germany          4.32     6.4
+19        Newcastle        South Africa          5.04     6.6
 ========================================================================================================================
 
 ========================================================================================================================
 As 20 cidades com maiores temperaturas e suas médias de dias de filmes alugados
 ------------------------------------------------------------------------------------------------------------------------
-                    city               country avg_rent_days  temp_c
-0               Mexicali                Mexico          5.16    40.1
-1                 Peoria                   USA          4.30    39.2
-2   San Miguel de Tucumn             Argentina          3.42    38.2
-3      Huejutla de Reyes                Mexico          4.63    35.4
-4              Matamoros                Mexico          3.52    35.4
-5                 Laredo                   USA          5.07    34.4
-6               Monclova                Mexico          4.00    34.4
-7                 Jhansi                 India          4.45    34.3
-8                 Sharja  United Arab Emirates          5.22    33.2
-9                Udaipur                 India          5.12    33.2
-10            Santa Rosa           Philippines          5.48    33.0
-11                Cavite           Philippines          4.90    33.0
-12                  Imus           Philippines          4.71    33.0
-13                Sokoto               Nigeria          4.68    33.0
-14                 Tanza           Philippines          4.56    33.0
-15                Jaipur                 India          4.39    33.0
-16           Mandaluyong           Philippines          4.11    33.0
-17                Taguig           Philippines          3.87    33.0
-18              Bhilwara                 India          4.91    32.9
-19                Etawah                 India          4.54    32.9
+                    city      country avg_rent_days  temp_c
+0               Mexicali       Mexico          5.16    41.1
+1      Huejutla de Reyes       Mexico          4.63    39.0
+2   San Miguel de Tucumn    Argentina          3.42    38.0
+3                 Peoria          USA          4.30    37.4
+4            So Leopoldo       Brazil          4.73    37.0
+5              Matamoros       Mexico          3.52    37.0
+6                 Laredo          USA          5.07    36.7
+7              El Fuerte       Mexico          4.36    35.9
+8               Monclova       Mexico          4.00    35.8
+9                   Naju  South Korea          5.00    35.3
+10             Shikarpur     Pakistan          4.00    35.3
+11               Garland          USA          4.73    35.2
+12                 Okara     Pakistan          4.90    34.5
+13           Tallahassee          USA          4.33    34.4
+14           Naala-Porto   Mozambique          4.68    34.0
+15                Dallas          USA          4.86    33.9
+16      Jalib al-Shuyukh       Kuwait          4.80    33.7
+17                Sokoto      Nigeria          4.68    33.7
+18         Grand Prairie          USA          4.52    33.6
+19             Arlington          USA          4.44    33.6
 ========================================================================================================================
 
 ###############################################   Fim do Exercício 07   ################################################
 
-##################################################   Fim do Script   ###################################################
+########################################################################################################################
+                                                      EXERCÍCIO 08                                                      
+########################################################################################################################
+Retrieving data...
+========================================================================================================================
+Informações dos clientes
+------------------------------------------------------------------------------------------------------------------------
+             customer            city      country  rent_amount payment_amount  temp_c   aqi  age age_group
+0        ELEANOR HUNT     Saint-Denis       France           46         216.54    22.3   NaN   65       60+
+1           KARL SEAL  Cape Canaveral          USA           45         221.55    30.7   NaN   28     25-29
+2          CLARA SHAW       Molodetno      Belarus           42         195.58     NaN   NaN   74       60+
+3         MARCIA DEAN           Tanza  Philippines           42         175.58    29.2   NaN   34     30-34
+4       TAMMY SANDERS        Changhwa       Taiwan           41         155.59    12.9   NaN   37     35-39
+..                ...             ...          ...          ...            ...     ...   ...  ...       ...
+594     ANITA MORALES   Hubli-Dharwad        India           15          62.85    22.5   NaN   51     50-54
+595    TIFFANY JORDAN           Enshi        China           14          59.86    15.0  61.0   43     40-44
+596  KATHERINE RIVERA           Basel  Switzerland           14          58.86     8.4   NaN   64       60+
+597      LEONA OBRIEN          Fuzhou        China           14          50.86    26.2  54.0   18       <18
+598       BRIAN WYMAN       Bydgoszcz       Poland           12          52.88     5.0   NaN   42     40-44
 
+[599 rows x 9 columns]
+========================================================================================================================
+
+###############################################   Fim do Exercício 08   ################################################
+
+########################################################################################################################
+                                                      EXERCÍCIO 09                                                      
+########################################################################################################################
+Retrieving data...
+Retrieving data...
+========================================================================================================================
+Dados exportados dos customers com payment acima da média, cidade com temperatura abaixo de 15C e AQI acima de 100
+------------------------------------------------------------------------------------------------------------------------
+               customer       city country  rent_amount payment_amount  temp_c    aqi  age age_group
+40         REGINA BERRY   Jinchang   China           34         135.66    13.7  124.0   66       60+
+57        CARRIE PORTER  Liaocheng   China           34         124.66    14.3  127.0   57     55-59
+60         JESSIE MILAM    Binzhou   China           33         141.67    13.8  132.0   27     25-29
+81     LEROY BUSTAMANTE   Tongliao   China           32         118.68    14.1  145.0   48     45-49
+139       MICHELE GRANT   Yuncheng   China           30         130.70    13.2  142.0   64       60+
+144  TERRENCE GUNDERSON    Jinzhou   China           30         117.70    14.2  122.0   65       60+
+149     WALTER PERRYMAN   Xinxiang   China           30         127.70    14.5  110.0   52     50-54
+152          ROBERTO VU   Yinchuan   China           30         139.70    14.4  138.0   69       60+
+205       MARION OCAMPO    Weifang   China           29         115.71    13.1  117.0   67       60+
+========================================================================================================================
+
+###############################################   Fim do Exercício 09   ################################################
+
+########################################################################################################################
+                                                      EXERCÍCIO 10                                                      
+########################################################################################################################
+O script para criar e atualizar o cache do AQI está em 'script.exercise.exercise_10()'
+###############################################   Fim do Exercício 10   ################################################
+
+##################################################   Fim do Script   ###################################################
 ```
