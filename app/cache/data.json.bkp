@@ -1,0 +1,2262 @@
+{
+    "0": {
+        "country": "Afghanistan",
+        "district": "Kabol",
+        "city": "Kabul"
+    },
+    "1": {
+        "country": "Algeria",
+        "district": "Batna",
+        "city": "Batna"
+    },
+    "2": {
+        "country": "Algeria",
+        "district": "Bchar",
+        "city": "Bchar"
+    },
+    "3": {
+        "country": "Algeria",
+        "district": "Skikda",
+        "city": "Skikda"
+    },
+    "4": {
+        "country": "American Samoa",
+        "district": "Tutuila",
+        "city": "Tafuna"
+    },
+    "5": {
+        "country": "Angola",
+        "district": "Benguela",
+        "city": "Benguela"
+    },
+    "6": {
+        "country": "Angola",
+        "district": "Namibe",
+        "city": "Namibe"
+    },
+    "7": {
+        "country": "Anguilla",
+        "district": "",
+        "city": "South Hill"
+    },
+    "8": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Almirante Brown"
+    },
+    "9": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Avellaneda"
+    },
+    "10": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Baha Blanca"
+    },
+    "11": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Escobar"
+    },
+    "12": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Ezeiza"
+    },
+    "13": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "La Plata"
+    },
+    "14": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Merlo"
+    },
+    "15": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Quilmes"
+    },
+    "16": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Tandil"
+    },
+    "17": {
+        "country": "Argentina",
+        "district": "Buenos Aires",
+        "city": "Vicente Lpez"
+    },
+    "18": {
+        "country": "Argentina",
+        "district": "Crdoba",
+        "city": "Crdoba"
+    },
+    "19": {
+        "country": "Argentina",
+        "district": "Santa F",
+        "city": "Santa F"
+    },
+    "20": {
+        "country": "Argentina",
+        "district": "Tucumn",
+        "city": "San Miguel de Tucumn"
+    },
+    "21": {
+        "status": "success",
+        "data": {
+            "city": "Yerevan",
+            "state": "Yerevan",
+            "country": "Armenia",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    44.51361,
+                    40.18111
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 46,
+                    "mainus": "p2",
+                    "aqicn": 12,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01n",
+                    "hu": 47,
+                    "pr": 1017,
+                    "tp": 12,
+                    "wd": 50,
+                    "ws": 1.54
+                }
+            }
+        }
+    },
+    "22": {
+        "country": "Austria",
+        "district": "North Austria",
+        "city": "Linz"
+    },
+    "23": {
+        "status": "success",
+        "data": {
+            "city": "Salzburg",
+            "state": "Salzburg",
+            "country": "Austria",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    13.030833333333334,
+                    47.81722222222223
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T22:00:00.000Z",
+                    "aqius": 38,
+                    "mainus": "o3",
+                    "aqicn": 29,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04n",
+                    "hu": 67,
+                    "pr": 1011,
+                    "tp": 15,
+                    "wd": 40,
+                    "ws": 2.57
+                }
+            }
+        }
+    },
+    "24": {
+        "country": "Austria",
+        "district": "Steiermark",
+        "city": "Graz"
+    },
+    "25": {
+        "country": "Azerbaijan",
+        "district": "Baki",
+        "city": "Baku"
+    },
+    "26": {
+        "country": "Azerbaijan",
+        "district": "Sumqayit",
+        "city": "Sumqayit"
+    },
+    "27": {
+        "country": "Bahrain",
+        "district": "al-Manama",
+        "city": "al-Manama"
+    },
+    "28": {
+        "status": "success",
+        "data": {
+            "city": "Dhaka",
+            "state": "Dhaka",
+            "country": "Bangladesh",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    90.4232701,
+                    23.7959872
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 178,
+                    "mainus": "p2",
+                    "aqicn": 124,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "50d",
+                    "hu": 89,
+                    "pr": 1006,
+                    "tp": 26,
+                    "wd": 30,
+                    "ws": 3.09
+                }
+            }
+        }
+    },
+    "29": {
+        "country": "Bangladesh",
+        "district": "Dhaka",
+        "city": "Jamalpur"
+    },
+    "30": {
+        "country": "Bangladesh",
+        "district": "Dhaka",
+        "city": "Tangail"
+    },
+    "31": {
+        "country": "Belarus",
+        "district": "Minsk",
+        "city": "Molodetno"
+    },
+    "32": {
+        "country": "Belarus",
+        "district": "Mogiljov",
+        "city": "Mogiljov"
+    },
+    "33": {
+        "status": "success",
+        "data": {
+            "city": "Sucre",
+            "state": "Chuquisaca",
+            "country": "Bolivia",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -65.26274,
+                    -19.03332
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 23,
+                    "mainus": "p2",
+                    "aqicn": 6,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "02n",
+                    "hu": 79,
+                    "pr": 1014,
+                    "tp": 12,
+                    "wd": 21,
+                    "ws": 1.97
+                }
+            }
+        }
+    },
+    "34": {
+        "country": "Bolivia",
+        "district": "La Paz",
+        "city": "El Alto"
+    },
+    "35": {
+        "country": "Brazil",
+        "district": "Cear",
+        "city": "Juazeiro do Norte"
+    },
+    "36": {
+        "country": "Brazil",
+        "district": "Distrito Federal",
+        "city": "Braslia"
+    },
+    "37": {
+        "country": "Brazil",
+        "district": "Esprito Santo",
+        "city": "Vila Velha"
+    },
+    "38": {
+        "country": "Brazil",
+        "district": "Gois",
+        "city": "Anpolis"
+    },
+    "39": {
+        "country": "Brazil",
+        "district": "Gois",
+        "city": "Aparecida de Goinia"
+    },
+    "40": {
+        "country": "Brazil",
+        "district": "Gois",
+        "city": "Goinia"
+    },
+    "41": {
+        "country": "Brazil",
+        "district": "Gois",
+        "city": "guas Lindas de Gois"
+    },
+    "42": {
+        "country": "Brazil",
+        "district": "Gois",
+        "city": "Luzinia"
+    },
+    "43": {
+        "country": "Brazil",
+        "district": "Minas Gerais",
+        "city": "Ibirit"
+    },
+    "44": {
+        "country": "Brazil",
+        "district": "Minas Gerais",
+        "city": "Juiz de Fora"
+    },
+    "45": {
+        "country": "Brazil",
+        "district": "Minas Gerais",
+        "city": "Poos de Caldas"
+    },
+    "46": {
+        "country": "Brazil",
+        "district": "Par",
+        "city": "Belm"
+    },
+    "47": {
+        "country": "Brazil",
+        "district": "Paran",
+        "city": "Maring"
+    },
+    "48": {
+        "country": "Brazil",
+        "district": "Pernambuco",
+        "city": "Vitria de Santo Anto"
+    },
+    "49": {
+        "country": "Brazil",
+        "district": "Rio de Janeiro",
+        "city": "Angra dos Reis"
+    },
+    "70": {
+        "country": "Canada",
+        "district": "British Colombia",
+        "city": "Vancouver"
+    },
+    "71": {
+        "status": "success",
+        "data": {
+            "city": "Halifax",
+            "state": "Nova Scotia",
+            "country": "Canada",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -63.5722,
+                    44.6478
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 19,
+                    "mainus": "o3",
+                    "aqicn": 16,
+                    "maincn": "n2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "02n",
+                    "hu": 75,
+                    "pr": 1020,
+                    "tp": 8,
+                    "wd": 138,
+                    "ws": 1.35
+                }
+            }
+        }
+    },
+    "72": {
+        "status": "success",
+        "data": {
+            "city": "Oshawa",
+            "state": "Ontario",
+            "country": "Canada",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -78.894917,
+                    43.945944
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 18,
+                    "mainus": "o3",
+                    "aqicn": 14,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 99,
+                    "pr": 1007,
+                    "tp": 9,
+                    "wd": 90,
+                    "ws": 8.75
+                }
+            }
+        }
+    },
+    "73": {
+        "status": "success",
+        "data": {
+            "city": "Richmond Hill",
+            "state": "Ontario",
+            "country": "Canada",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -79.43725,
+                    43.87111
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 4,
+                    "mainus": "p2",
+                    "aqicn": 1,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 94,
+                    "pr": 1006,
+                    "tp": 9,
+                    "wd": 65,
+                    "ws": 1.79
+                }
+            }
+        }
+    },
+    "74": {
+        "country": "Canada",
+        "district": "Qubec",
+        "city": "Gatineau"
+    },
+    "75": {
+        "country": "Chad",
+        "district": "Chari-Baguirmi",
+        "city": "NDjamna"
+    },
+    "76": {
+        "country": "Chile",
+        "district": "Antofagasta",
+        "city": "Antofagasta"
+    },
+    "77": {
+        "status": "success",
+        "data": {
+            "city": "Coquimbo",
+            "state": "Coquimbo",
+            "country": "Chile",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -71.3389183,
+                    -29.9590009
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 59,
+                    "mainus": "p2",
+                    "aqicn": 19,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01n",
+                    "hu": 82,
+                    "pr": 1012,
+                    "tp": 15,
+                    "wd": 0,
+                    "ws": 1.03
+                }
+            }
+        }
+    },
+    "78": {
+        "country": "Chile",
+        "district": "OHiggins",
+        "city": "Rancagua"
+    },
+    "79": {
+        "status": "success",
+        "data": {
+            "city": "Fuzhou",
+            "state": "Fujian",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    119.3119357392,
+                    26.1240406337
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T23:00:00.000Z",
+                    "aqius": 54,
+                    "mainus": "p2",
+                    "aqicn": 27,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 87,
+                    "pr": 1008,
+                    "tp": 27,
+                    "wd": 297,
+                    "ws": 0.98
+                }
+            }
+        }
+    },
+    "50": {
+        "country": "Brazil",
+        "district": "Rio Grande do Sul",
+        "city": "Alvorada"
+    },
+    "51": {
+        "country": "Brazil",
+        "district": "Rio Grande do Sul",
+        "city": "Bag"
+    },
+    "52": {
+        "country": "Brazil",
+        "district": "Rio Grande do Sul",
+        "city": "So Leopoldo"
+    },
+    "53": {
+        "status": "success",
+        "data": {
+            "city": "Boa Vista",
+            "state": "Roraima",
+            "country": "Brazil",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    -60.67333,
+                    2.81972
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 1,
+                    "mainus": "p2",
+                    "aqicn": 0,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "03n",
+                    "hu": 83,
+                    "pr": 1012,
+                    "tp": 25,
+                    "wd": 120,
+                    "ws": 2.06
+                }
+            }
+        }
+    },
+    "54": {
+        "country": "Brazil",
+        "district": "Santa Catarina",
+        "city": "Blumenau"
+    },
+    "55": {
+        "country": "Brazil",
+        "district": "Sao Paulo",
+        "city": "Santa Barbara dOeste"
+    },
+    "56": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Araatuba"
+    },
+    "57": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Guaruj"
+    },
+    "58": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Po"
+    },
+    "59": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Rio Claro"
+    },
+    "60": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Santo Andr"
+    },
+    "61": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "So Bernardo do Campo"
+    },
+    "62": {
+        "country": "Brazil",
+        "district": "So Paulo",
+        "city": "Sorocaba"
+    },
+    "63": {
+        "country": "Brunei",
+        "district": "Brunei and Muara",
+        "city": "Bandar Seri Begawan"
+    },
+    "64": {
+        "country": "Bulgaria",
+        "district": "Haskovo",
+        "city": "Stara Zagora"
+    },
+    "65": {
+        "country": "Bulgaria",
+        "district": "Ruse",
+        "city": "Ruse"
+    },
+    "66": {
+        "country": "Cambodia",
+        "district": "Battambang",
+        "city": "Battambang"
+    },
+    "67": {
+        "status": "success",
+        "data": {
+            "city": "Phnom Penh",
+            "state": "Phnom Penh",
+            "country": "Cambodia",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    104.91399417,
+                    11.5635767
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 44,
+                    "mainus": "p2",
+                    "aqicn": 11,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "03d",
+                    "hu": 100,
+                    "pr": 1007,
+                    "tp": 26,
+                    "wd": 50,
+                    "ws": 2.06
+                }
+            }
+        }
+    },
+    "68": {
+        "country": "Cameroon",
+        "district": "Centre",
+        "city": "Yaound"
+    },
+    "69": {
+        "country": "Cameroon",
+        "district": "Nord-Ouest",
+        "city": "Bamenda"
+    },
+    "80": {
+        "country": "China",
+        "district": "Gansu",
+        "city": "Baiyin"
+    },
+    "81": {
+        "status": "success",
+        "data": {
+            "city": "Jinchang",
+            "state": "Gansu",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    102.2081262626,
+                    38.5160717995
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T23:00:00.000Z",
+                    "aqius": 124,
+                    "mainus": "p2",
+                    "aqicn": 82,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01d",
+                    "hu": 33,
+                    "pr": 1017,
+                    "tp": 17,
+                    "wd": 293,
+                    "ws": 4.94
+                }
+            }
+        }
+    },
+    "82": {
+        "country": "China",
+        "district": "Guangdong",
+        "city": "Meixian"
+    },
+    "83": {
+        "status": "success",
+        "data": {
+            "city": "Shanwei",
+            "state": "Guangdong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    115.370147,
+                    22.772239
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T23:00:00.000Z",
+                    "aqius": 33,
+                    "mainus": "p2",
+                    "aqicn": 12,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 82,
+                    "pr": 1009,
+                    "tp": 28,
+                    "wd": 239,
+                    "ws": 4.03
+                }
+            }
+        }
+    },
+    "84": {
+        "status": "success",
+        "data": {
+            "city": "Shaoguan",
+            "state": "Guangdong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    113.602102,
+                    24.682908
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T23:00:00.000Z",
+                    "aqius": 73,
+                    "mainus": "p2",
+                    "aqicn": 39,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 84,
+                    "pr": 1008,
+                    "tp": 27,
+                    "wd": 174,
+                    "ws": 1.69
+                }
+            }
+        }
+    },
+    "85": {
+        "country": "China",
+        "district": "Guangdong",
+        "city": "Shenzhen"
+    },
+    "86": {
+        "status": "success",
+        "data": {
+            "city": "Sanya",
+            "state": "Hainan",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    109.51212358,
+                    18.24670292
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 17,
+                    "mainus": "p2",
+                    "aqicn": 12,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "03d",
+                    "hu": 89,
+                    "pr": 1007,
+                    "tp": 28,
+                    "wd": 80,
+                    "ws": 3
+                }
+            }
+        }
+    },
+    "87": {
+        "status": "success",
+        "data": {
+            "city": "Qinhuangdao",
+            "state": "Hebei",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    119.58833,
+                    39.93167
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 137,
+                    "mainus": "p2",
+                    "aqicn": 69,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 23,
+                    "pr": 1015,
+                    "tp": 22,
+                    "wd": 24,
+                    "ws": 3.73
+                }
+            }
+        }
+    },
+    "88": {
+        "status": "success",
+        "data": {
+            "city": "Suihua",
+            "state": "Heilongjiang",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    127.01592,
+                    46.645354
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 36,
+                    "mainus": "p2",
+                    "aqicn": 17,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01d",
+                    "hu": 44,
+                    "pr": 1013,
+                    "tp": 15,
+                    "wd": 7,
+                    "ws": 4.52
+                }
+            }
+        }
+    },
+    "89": {
+        "country": "China",
+        "district": "Heilongjiang",
+        "city": "Tieli"
+    },
+    "90": {
+        "country": "China",
+        "district": "Henan",
+        "city": "Nanyang"
+    },
+    "91": {
+        "status": "success",
+        "data": {
+            "city": "Xinxiang",
+            "state": "Henan",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    113.9126901608,
+                    35.3072575577
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 110,
+                    "mainus": "p2",
+                    "aqicn": 81,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 22,
+                    "pr": 1010,
+                    "tp": 25,
+                    "wd": 36,
+                    "ws": 9.43
+                }
+            }
+        }
+    },
+    "92": {
+        "country": "China",
+        "district": "Henan",
+        "city": "Yuzhou"
+    },
+    "93": {
+        "status": "success",
+        "data": {
+            "city": "Enshi",
+            "state": "Hubei",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    109.478931,
+                    30.278325
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 61,
+                    "mainus": "p2",
+                    "aqicn": 28,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 91,
+                    "pr": 1005,
+                    "tp": 23,
+                    "wd": 339,
+                    "ws": 0.14
+                }
+            }
+        }
+    },
+    "94": {
+        "status": "success",
+        "data": {
+            "city": "Ezhou",
+            "state": "Hubei",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    114.8484493512,
+                    30.4212689115
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 47,
+                    "mainus": "p2",
+                    "aqicn": 22,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 84,
+                    "pr": 1005,
+                    "tp": 27,
+                    "wd": 119,
+                    "ws": 5.08
+                }
+            }
+        }
+    },
+    "95": {
+        "country": "China",
+        "district": "Hubei",
+        "city": "Laohekou"
+    },
+    "96": {
+        "country": "China",
+        "district": "Hubei",
+        "city": "Xiangfan"
+    },
+    "97": {
+        "country": "China",
+        "district": "Hubei",
+        "city": "Zaoyang"
+    },
+    "98": {
+        "country": "China",
+        "district": "Hunan",
+        "city": "Lengshuijiang"
+    },
+    "99": {
+        "status": "success",
+        "data": {
+            "city": "Xiangtan",
+            "state": "Hunan",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    112.935555633,
+                    27.835095053
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 56,
+                    "mainus": "p2",
+                    "aqicn": 22,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 87,
+                    "pr": 1005,
+                    "tp": 27,
+                    "wd": 153,
+                    "ws": 2.83
+                }
+            }
+        }
+    },
+    "100": {
+        "country": "China",
+        "district": "Inner Mongolia",
+        "city": "Hohhot"
+    },
+    "101": {
+        "country": "China",
+        "district": "Inner Mongolia",
+        "city": "Jining"
+    },
+    "102": {
+        "status": "success",
+        "data": {
+            "city": "Tongliao",
+            "state": "Inner Mongolia",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    122.2603632632,
+                    43.633756073
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 145,
+                    "mainus": "p2",
+                    "aqicn": 73,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01d",
+                    "hu": 37,
+                    "pr": 1015,
+                    "tp": 17,
+                    "wd": 353,
+                    "ws": 7.86
+                }
+            }
+        }
+    },
+    "103": {
+        "country": "China",
+        "district": "Inner Mongolia",
+        "city": "Zalantun"
+    },
+    "104": {
+        "status": "success",
+        "data": {
+            "city": "Changzhou",
+            "state": "Jiangsu",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    119.515038351,
+                    31.7230541807
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 97,
+                    "mainus": "p2",
+                    "aqicn": 60,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 74,
+                    "pr": 1008,
+                    "tp": 27,
+                    "wd": 70,
+                    "ws": 3.58
+                }
+            }
+        }
+    },
+    "105": {
+        "country": "China",
+        "district": "Jiangsu",
+        "city": "Huaian"
+    },
+    "106": {
+        "status": "success",
+        "data": {
+            "city": "Pingxiang",
+            "state": "Jiangxi",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    114.2686982629,
+                    27.5725006899
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T23:00:00.000Z",
+                    "aqius": 68,
+                    "mainus": "p2",
+                    "aqicn": 34,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 86,
+                    "pr": 1007,
+                    "tp": 24,
+                    "wd": 140,
+                    "ws": 0.92
+                }
+            }
+        }
+    },
+    "107": {
+        "status": "success",
+        "data": {
+            "city": "Baicheng",
+            "state": "Jilin",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    122.8272421,
+                    45.6186327
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 89,
+                    "mainus": "p2",
+                    "aqicn": 42,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 37,
+                    "pr": 1015,
+                    "tp": 16,
+                    "wd": 0,
+                    "ws": 7.08
+                }
+            }
+        }
+    },
+    "108": {
+        "country": "China",
+        "district": "Jilin",
+        "city": "Fuyu"
+    },
+    "109": {
+        "status": "success",
+        "data": {
+            "city": "Jinzhou",
+            "state": "Liaoning",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    121.120465,
+                    41.12239
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 122,
+                    "mainus": "p2",
+                    "aqicn": 71,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 22,
+                    "pr": 1015,
+                    "tp": 20,
+                    "wd": 357,
+                    "ws": 8.98
+                }
+            }
+        }
+    },
+    "110": {
+        "country": "China",
+        "district": "Liaoning",
+        "city": "Tiefa"
+    },
+    "111": {
+        "status": "success",
+        "data": {
+            "city": "Yingkou",
+            "state": "Liaoning",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    120.875248,
+                    40.772535
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 145,
+                    "mainus": "p2",
+                    "aqicn": 73,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 22,
+                    "pr": 1015,
+                    "tp": 20,
+                    "wd": 3,
+                    "ws": 9.23
+                }
+            }
+        }
+    },
+    "112": {
+        "status": "success",
+        "data": {
+            "city": "Yinchuan",
+            "state": "Ningxia",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    106.2064786078,
+                    38.5026210119
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 138,
+                    "mainus": "p2",
+                    "aqicn": 76,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 49,
+                    "pr": 1015,
+                    "tp": 16,
+                    "wd": 201,
+                    "ws": 2.41
+                }
+            }
+        }
+    },
+    "113": {
+        "status": "success",
+        "data": {
+            "city": "Binzhou",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    117.9682924145,
+                    37.4053139418
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 132,
+                    "mainus": "p2",
+                    "aqicn": 66,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 30,
+                    "pr": 1013,
+                    "tp": 23,
+                    "wd": 89,
+                    "ws": 6.63
+                }
+            }
+        }
+    },
+    "114": {
+        "status": "success",
+        "data": {
+            "city": "Dongying",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    118.4465599697,
+                    37.484281805
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 127,
+                    "mainus": "p2",
+                    "aqicn": 64,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 30,
+                    "pr": 1013,
+                    "tp": 23,
+                    "wd": 86,
+                    "ws": 5.8
+                }
+            }
+        }
+    },
+    "115": {
+        "country": "China",
+        "district": "Shandong",
+        "city": "Junan"
+    },
+    "116": {
+        "country": "China",
+        "district": "Shandong",
+        "city": "Laiwu"
+    },
+    "117": {
+        "status": "success",
+        "data": {
+            "city": "Liaocheng",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    115.9868691393,
+                    36.4558285147
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 127,
+                    "mainus": "p2",
+                    "aqicn": 65,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 44,
+                    "pr": 1012,
+                    "tp": 22,
+                    "wd": 46,
+                    "ws": 5.54
+                }
+            }
+        }
+    },
+    "118": {
+        "status": "success",
+        "data": {
+            "city": "Rizhao",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    119.507179943,
+                    35.4202251931
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 92,
+                    "mainus": "p2",
+                    "aqicn": 54,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 75,
+                    "pr": 1012,
+                    "tp": 21,
+                    "wd": 52,
+                    "ws": 2.98
+                }
+            }
+        }
+    },
+    "119": {
+        "status": "success",
+        "data": {
+            "city": "Weifang",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    119.1638,
+                    36.6525
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 117,
+                    "mainus": "p2",
+                    "aqicn": 70,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 40,
+                    "pr": 1013,
+                    "tp": 22,
+                    "wd": 71,
+                    "ws": 4.34
+                }
+            }
+        }
+    },
+    "120": {
+        "country": "China",
+        "district": "Shandong",
+        "city": "Xintai"
+    },
+    "121": {
+        "status": "success",
+        "data": {
+            "city": "Yantai",
+            "state": "Shandong",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    121.4590650466,
+                    37.4894079905
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 122,
+                    "mainus": "p2",
+                    "aqicn": 61,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 54,
+                    "pr": 1013,
+                    "tp": 19,
+                    "wd": 32,
+                    "ws": 3.37
+                }
+            }
+        }
+    },
+    "122": {
+        "status": "success",
+        "data": {
+            "city": "Datong",
+            "state": "Shanxi",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    113.2841657379,
+                    40.1469333631
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 96,
+                    "mainus": "p2",
+                    "aqicn": 48,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 62,
+                    "pr": 1012,
+                    "tp": 16,
+                    "wd": 143,
+                    "ws": 5.2
+                }
+            }
+        }
+    },
+    "123": {
+        "status": "success",
+        "data": {
+            "city": "Yuncheng",
+            "state": "Shanxi",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    111.0068536531,
+                    35.0388594798
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 142,
+                    "mainus": "p2",
+                    "aqicn": 82,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10d",
+                    "hu": 62,
+                    "pr": 1011,
+                    "tp": 23,
+                    "wd": 198,
+                    "ws": 2.99
+                }
+            }
+        }
+    },
+    "124": {
+        "country": "China",
+        "district": "Sichuan",
+        "city": "Daxian"
+    },
+    "125": {
+        "country": "China",
+        "district": "Sichuan",
+        "city": "Emeishan"
+    },
+    "126": {
+        "status": "success",
+        "data": {
+            "city": "Leshan",
+            "state": "Sichuan",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    103.7788275388,
+                    29.5501928887
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 96,
+                    "mainus": "p2",
+                    "aqicn": 47,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 78,
+                    "pr": 1007,
+                    "tp": 24,
+                    "wd": 349,
+                    "ws": 2.48
+                }
+            }
+        }
+    },
+    "127": {
+        "status": "success",
+        "data": {
+            "city": "Tianjin",
+            "state": "Tianjin",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    117.213363,
+                    39.22679
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 154,
+                    "mainus": "p2",
+                    "aqicn": 81,
+                    "maincn": "p2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01d",
+                    "hu": 49,
+                    "pr": 1015,
+                    "tp": 21,
+                    "wd": 350,
+                    "ws": 2
+                }
+            }
+        }
+    },
+    "128": {
+        "country": "China",
+        "district": "Xinxiang",
+        "city": "Hami"
+    },
+    "129": {
+        "country": "China",
+        "district": "Xinxiang",
+        "city": "Korla"
+    },
+    "130": {
+        "country": "China",
+        "district": "Zhejiang",
+        "city": "Haining"
+    },
+    "131": {
+        "status": "success",
+        "data": {
+            "city": "Zhoushan",
+            "state": "Zhejiang",
+            "country": "China",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    122.0730244687,
+                    30.0648471616
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 65,
+                    "mainus": "p2",
+                    "aqicn": 25,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 93,
+                    "pr": 1009,
+                    "tp": 22,
+                    "wd": 39,
+                    "ws": 2.19
+                }
+            }
+        }
+    },
+    "132": {
+        "country": "Colombia",
+        "district": "Boyac",
+        "city": "Sogamoso"
+    },
+    "133": {
+        "country": "Colombia",
+        "district": "Caquet",
+        "city": "Florencia"
+    },
+    "134": {
+        "country": "Colombia",
+        "district": "Risaralda",
+        "city": "Dos Quebradas"
+    },
+    "135": {
+        "country": "Colombia",
+        "district": "Risaralda",
+        "city": "Pereira"
+    },
+    "136": {
+        "country": "Colombia",
+        "district": "Sucre",
+        "city": "Sincelejo"
+    },
+    "137": {
+        "country": "Colombia",
+        "district": "Valle",
+        "city": "Buenaventura"
+    },
+    "138": {
+        "country": "Congo, The Democratic Republic of the",
+        "district": "East Kasai",
+        "city": "Mwene-Ditu"
+    },
+    "139": {
+        "country": "Congo, The Democratic Republic of the",
+        "district": "Shaba",
+        "city": "Lubumbashi"
+    },
+    "140": {
+        "country": "Czech Republic",
+        "district": "Severn Morava",
+        "city": "Olomouc"
+    },
+    "141": {
+        "country": "Dominican Republic",
+        "district": "La Romana",
+        "city": "La Romana"
+    },
+    "142": {
+        "country": "Dominican Republic",
+        "district": "Puerto Plata",
+        "city": "San Felipe de Puerto Plata"
+    },
+    "143": {
+        "country": "Dominican Republic",
+        "district": "Santiago",
+        "city": "Santiago de los Caballeros"
+    },
+    "144": {
+        "country": "Ecuador",
+        "district": "Chimborazo",
+        "city": "Robamba"
+    },
+    "145": {
+        "country": "Ecuador",
+        "district": "Loja",
+        "city": "Loja"
+    },
+    "146": {
+        "country": "Ecuador",
+        "district": "Manab",
+        "city": "Portoviejo"
+    },
+    "147": {
+        "country": "Egypt",
+        "district": "al-Daqahliya",
+        "city": "Mit Ghamr"
+    },
+    "148": {
+        "country": "Egypt",
+        "district": "al-Qalyubiya",
+        "city": "Qalyub"
+    },
+    "149": {
+        "country": "Egypt",
+        "district": "al-Qalyubiya",
+        "city": "Shubra al-Khayma"
+    },
+    "150": {
+        "country": "Egypt",
+        "district": "al-Sharqiya",
+        "city": "Bilbays"
+    },
+    "151": {
+        "country": "Egypt",
+        "district": "Qina",
+        "city": "Idfu"
+    },
+    "152": {
+        "country": "Egypt",
+        "district": "Sawhaj",
+        "city": "Sawhaj"
+    },
+    "153": {
+        "country": "Estonia",
+        "district": "Tartumaa",
+        "city": "Tartu"
+    },
+    "154": {
+        "country": "Ethiopia",
+        "district": "Addis Abeba",
+        "city": "Addis Abeba"
+    },
+    "155": {
+        "country": "Faroe Islands",
+        "district": "Streymoyar",
+        "city": "Trshavn"
+    },
+    "156": {
+        "country": "Finland",
+        "district": "Pohjois-Pohjanmaa",
+        "city": "Oulu"
+    },
+    "157": {
+        "country": "France",
+        "district": "Bretagne",
+        "city": "Brest"
+    },
+    "158": {
+        "country": "France",
+        "district": "Midi-Pyrnes",
+        "city": "Toulouse"
+    },
+    "159": {
+        "status": "success",
+        "data": {
+            "city": "Le Mans",
+            "state": "Pays de la Loire",
+            "country": "France",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    0.1902679,
+                    48.0054359
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-21T22:00:00.000Z",
+                    "aqius": 30,
+                    "mainus": "o3",
+                    "aqicn": 23,
+                    "maincn": "o3"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "01n",
+                    "hu": 76,
+                    "pr": 1017,
+                    "tp": 12,
+                    "wd": 330,
+                    "ws": 3.09
+                }
+            }
+        }
+    },
+    "160": {
+        "country": "France",
+        "district": "Provence-Alpes-Cte",
+        "city": "Toulon"
+    },
+    "161": {
+        "country": "France",
+        "district": "Reunion",
+        "city": "Saint-Denis"
+    },
+    "162": {
+        "country": "French Guiana",
+        "district": "Cayenne",
+        "city": "Cayenne"
+    },
+    "163": {
+        "country": "French Polynesia",
+        "district": "Tahiti",
+        "city": "Faaa"
+    },
+    "164": {
+        "country": "French Polynesia",
+        "district": "Tahiti",
+        "city": "Papeete"
+    },
+    "165": {
+        "country": "Gambia",
+        "district": "Banjul",
+        "city": "Banjul"
+    },
+    "166": {
+        "country": "Germany",
+        "district": "Anhalt Sachsen",
+        "city": "Halle/Saale"
+    },
+    "167": {
+        "country": "Germany",
+        "district": "Baden-Wrttemberg",
+        "city": "Mannheim"
+    },
+    "168": {
+        "country": "Germany",
+        "district": "Baijeri",
+        "city": "Erlangen"
+    },
+    "169": {
+        "country": "Germany",
+        "district": "Nordrhein-Westfalen",
+        "city": "Duisburg"
+    },
+    "170": {
+        "country": "Germany",
+        "district": "Nordrhein-Westfalen",
+        "city": "Siegen"
+    },
+    "171": {
+        "country": "Germany",
+        "district": "Nordrhein-Westfalen",
+        "city": "Witten"
+    },
+    "172": {
+        "country": "Germany",
+        "district": "Saarland",
+        "city": "Saarbrcken"
+    },
+    "173": {
+        "country": "Greece",
+        "district": "Attika",
+        "city": "Athenai"
+    },
+    "174": {
+        "status": "success",
+        "data": {
+            "city": "Patras",
+            "state": "West Greece",
+            "country": "Greece",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    21.735792,
+                    38.224145
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 34,
+                    "mainus": "p2",
+                    "aqicn": 30,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "10n",
+                    "hu": 68,
+                    "pr": 1016,
+                    "tp": 19,
+                    "wd": 92,
+                    "ws": 2.04
+                }
+            }
+        }
+    },
+    "175": {
+        "country": "Greenland",
+        "district": "Kitaa",
+        "city": "Nuuk"
+    },
+    "176": {
+        "country": "Holy See (Vatican City State)",
+        "district": "",
+        "city": "Citt del Vaticano"
+    },
+    "177": {
+        "country": "Hong Kong",
+        "district": "Kowloon and New Kowl",
+        "city": "Kowloon and New Kowloon"
+    },
+    "178": {
+        "country": "Hungary",
+        "district": "Fejr",
+        "city": "Szkesfehrvr"
+    },
+    "179": {
+        "country": "India",
+        "district": "Andhra Pradesh",
+        "city": "Adoni"
+    },
+    "180": {
+        "country": "India",
+        "district": "Andhra Pradesh",
+        "city": "Bhimavaram"
+    },
+    "181": {
+        "status": "success",
+        "data": {
+            "city": "Vijayawada",
+            "state": "Andhra Pradesh",
+            "country": "India",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    80.62739,
+                    16.507118
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 84,
+                    "mainus": "p2",
+                    "aqicn": 46,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04n",
+                    "hu": 81,
+                    "pr": 1004,
+                    "tp": 27,
+                    "wd": 307,
+                    "ws": 1.82
+                }
+            }
+        }
+    },
+    "182": {
+        "status": "success",
+        "data": {
+            "city": "Nagaon",
+            "state": " Assam",
+            "country": "India",
+            "location": {
+                "coordinates": [
+                    92.66667,
+                    26.35
+                ],
+                "type": "Point"
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 65,
+                    "mainus": "p2",
+                    "aqicn": 32,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 88,
+                    "pr": 1008,
+                    "tp": 24,
+                    "wd": 137,
+                    "ws": 0.73
+                }
+            }
+        }
+    },
+    "183": {
+        "country": "India",
+        "district": "Bihar",
+        "city": "Chapra"
+    },
+    "184": {
+        "status": "success",
+        "data": {
+            "city": "Katihar",
+            "state": "Bihar",
+            "country": "India",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    87.57044,
+                    25.53852
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 39,
+                    "mainus": "p2",
+                    "aqicn": 19,
+                    "maincn": "s2"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "04d",
+                    "hu": 77,
+                    "pr": 1005,
+                    "tp": 26,
+                    "wd": 35,
+                    "ws": 2.31
+                }
+            }
+        }
+    },
+    "185": {
+        "country": "India",
+        "district": "Bihar",
+        "city": "Munger (Monghyr)"
+    },
+    "186": {
+        "country": "India",
+        "district": "Gujarat",
+        "city": "Bhavnagar"
+    },
+    "187": {
+        "status": "success",
+        "data": {
+            "city": "Gandhinagar",
+            "state": "Gujarat",
+            "country": "India",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    72.67816,
+                    23.17594
+                ]
+            },
+            "current": {
+                "pollution": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "aqius": 84,
+                    "mainus": "p2",
+                    "aqicn": 61,
+                    "maincn": "p1"
+                },
+                "weather": {
+                    "ts": "2025-05-22T00:00:00.000Z",
+                    "ic": "50n",
+                    "hu": 65,
+                    "pr": 1002,
+                    "tp": 28,
+                    "wd": 110,
+                    "ws": 4.12
+                }
+            }
+        }
+    },
+    "188": {
+        "country": "India",
+        "district": "Gujarat",
+        "city": "Rajkot"
+    },
+    "189": {
+        "country": "India",
+        "district": "Haryana",
+        "city": "Karnal"
+    },
+    "190": {
+        "country": "India",
+        "district": "Haryana",
+        "city": "Yamuna Nagar"
+    },
+    "191": {
+        "country": "India",
+        "district": "Jharkhand",
+        "city": "Purnea (Purnia)"
+    },
+    "192": {
+        "country": "India",
+        "district": "Jharkhand",
+        "city": "Ranchi"
+    },
+    "193": {
+        "country": "India",
+        "district": "Karnataka",
+        "city": "Bijapur"
+    },
+    "194": {
+        "country": "India",
+        "district": "Karnataka",
+        "city": "Gulbarga"
+    },
+    "195": {
+        "country": "India",
+        "district": "Karnataka",
+        "city": "Hubli-Dharwad"
+    },
+    "196": {
+        "country": "India",
+        "district": "Karnataka",
+        "city": "Mysore"
+    },
+    "197": {
+        "country": "India",
+        "district": "Karnataka",
+        "city": "Shimoga"
+    },
+    "198": {
+        "country": "India",
+        "district": "Kerala",
+        "city": "Allappuzha (Alleppey)"
+    },
+    "199": {
+        "country": "India",
+        "district": "Kerala",
+        "city": "Palghat (Palakkad)"
+    }
+}
