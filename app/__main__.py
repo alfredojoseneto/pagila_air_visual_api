@@ -42,6 +42,18 @@ def main() -> None:
     exercise.exercise_07()
     printer.session_footer("Fim do Exercício 07")
 
+    printer.session_header("EXERCÍCIO 08")
+    exercise.exercise_08()
+    printer.session_footer("Fim do Exercício 08")
+
+    printer.session_header("EXERCÍCIO 09")
+    exercise.exercise_09()
+    printer.session_footer("Fim do Exercício 09")
+
+    printer.session_header("EXERCÍCIO 10")
+    print("O script para criar e atualizar o cache do AQI está em 'script.exercise.exercise_10()'")
+    printer.session_footer("Fim do Exercício 10")
+
     printer.session_footer("Fim do Script")
 
 
