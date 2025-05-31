@@ -1,12 +1,13 @@
 # PAGILA AIR VISUAL API
 
-## 📝 Description
+## 📝 Descrição
 
-Este é um projeto que foi elaborando utilizando a base de dados Sakila e as APIs
-[Air Visual API](https://api-docs.iqair.com/?version=latest), [Weather API](https://www.weatherapi.com/)
-e [REST Countries API](https://restcountries.com/) para o desenvolvimento de uma atividade
-relacionada à disciplina de Pythons para Engenharia de Dados do MBA em
-Engenharia de Dados pela PUC-MG.
+Este é um projeto que foi elaborando utilizando a base de dados Sakila que foi
+brilhantemente adaptada para Pagila pelo [devrimgunduz](https://github.com/devrimgunduz)
+e as APIs [Air Visual API](https://api-docs.iqair.com/?version=latest),
+[Weather API](https://www.weatherapi.com/) e [REST Countries API](https://restcountries.com/)
+para o desenvolvimento de uma atividade relacionada à disciplina de Pythons
+para Engenharia de Dados do MBA em Engenharia de Dados pela PUC-MG.
 
 O objetivo do projeto foi elaborar o consumo destas API utilizando informações
 dos nomes das cidades a fim de se obter temperatura e qualidade do ar para que
@@ -14,28 +15,99 @@ fosse possível realizar algumas análises.
 
 ## 💻 Pré-requisitos
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Antes de começar, verifique requisitos para o projeto:
 
 - Foi utilizada a versão `3.12.9` do python.
 - Para gerenciamento das versões e do ambiente foi utilizado o [pyenv](https://github.com/pyenv/pyenv)
-- O ambiente de desenvolvimento foi o `Ubuntu 22.04 LTS`.
+- O ambiente de desenvolvimento:
+     - `Ubuntu 22.04 LTS`.
+     - `pyenv 2.5.7-9-g70b973fd`
+     - `Python version 3.12.9`
+     - `Docker version 28.1.1, build 4eba377`
+     - `Docker Compose version v2.35.1`
+
+### Estrutura do projeto
+
+O pojeto está estruturado de acordo com o modelo abaixo. No repositório não há o arquivo `.env`.
+Abaixo será descrito o conteúdo do arquivo `.env`.
+
+```text
+pagila_air_visual_api
+├── app
+│   ├── cache
+│   │   ├── data.json
+│   │   └── data.json.bkp
+│   ├── database
+│   │   ├── connection_factory.py
+│   │   ├── connection.py
+│   │   └── __init__.py
+│   ├── __main__.py
+│   ├── .python-version
+│   ├── report
+│   │   └── report.xlsx
+│   ├── requirements.txt
+│   ├── script
+│   │   └── exercise.py
+│   ├── source
+│   │   ├── airvisual_api.py
+│   │   ├── country_api.py
+│   │   ├── pagila.py
+│   │   └── weather_api.py
+│   └── util
+│       ├── printer.py
+│       └── sql_handler.py
+├── app.Dockerfile
+├── docker-compose.yml
+├── .env
+├── .gitignore
+├── README.md
+└── scripts
+    ├── pagila-data-apt-jsonb.backup
+    ├── pagila-data.sql
+    ├── pagila-data-yum-jsonb.backup
+    ├── pagila-insert-data.sql
+    ├── pagila-schema-diagram.png
+    ├── pagila-schema-jsonb.sql
+    ├── pagila-schema.sql
+    └── restore-pagila-data-jsonb.sh
+```
+
+### Arquivo `.env`
+
+Como é um ambiente de teste com os dos do pagila, o banco de dados e o usuário
+precisam ser `postgres` devido os scritps para a recriação do dos dados do pagila
+estarem atrelados ao banco de dados postgres.
+
+Quanto à `AIRVISUAL_KEY` e a `WEATHER_KEY` é necessário criar essa chaves nos
+respectivos sites informados na sessão [descrição](#-descrição)
+
+```text
+AIRVISUAL_KEY=""
+POSTGRES_DATABASE="postgres"
+POSTGRES_HOST="db"
+POSTGRES_PASSWORD=""
+POSTGRES_PORT="5432"
+POSTGRES_USER="postgres"
+WEATHER_KEY = ""
+```
+
+
+## 🚀 Instalação
+
 - Para criação do ambiente e execução do projeto:
 
 ```bash
 # clonar o projeto
 $ git@github.com:alfredojoseneto/pagila_air_visual_api.git
 
-# criar o ambiente virtual
-$ python3 -m venv .venv
+# criar as imagens
+$ docker compose build
 
-# ativar o ambiente virtual
-$ source .venv/bin/activate
+# inicializar os containers
+$ docker compose up -d
 
-# instalação das dependências para execução do projeto
-$ pip install -r app/requirements.txt
-
-# execução do projeto no terminal
-$ python3 -m app
+# executar o app
+$ docker exec -it app python -m app
 ``` 
 
 ## 📝 Outputs

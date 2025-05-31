@@ -1,12 +1,5 @@
-from dotenv import load_dotenv
-from importlib import reload
-
-from app.database import connection
-from app.util import sql_handler, printer
-from app.source import country_api, pagila, weather_api
+from app.util import printer
 from app.script import exercise
-
-load_dotenv("app/.env")
 
 
 def main() -> None:

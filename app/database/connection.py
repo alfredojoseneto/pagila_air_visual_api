@@ -8,11 +8,11 @@ class Connection(ConnectionFactory):
 
     def __init__(self):
         super().__init__()
-        self.__user = os.getenv("PG_USER")
-        self.__password = os.getenv("PG_PASSWORD")
-        self.__host = os.getenv("PG_HOST")
-        self.__port = os.getenv("PG_PORT")
-        self.__dbname = os.getenv("PG_DB")
+        self.__user = os.getenv("POSTGRES_USER")
+        self.__password = os.getenv("POSTGRES_PASSWORD")
+        self.__host = os.getenv("POSTGRES_HOST")
+        self.__port = os.getenv("POSTGRES_PORT")
+        self.__dbname = os.getenv("POSTGRES_DATABASE")
 
     def create_connection(self) -> connection:
         """
